@@ -1,0 +1,267 @@
+/* @override http://cdn.shopify.com/s/files/1/0062/9392/assets/rubythreads.css?1296675460 */
+
+body {
+	font: 16px/24px "Helvetica Neue", Helvetica, Geneva, Arial, sans-serif;
+}
+
+h1 {
+	margin: 0.5em 0;
+	font: normal 32px "ReklameScriptMedium";
+}
+
+h2 {
+	margin: 0.5em 0;
+	font: normal 24px "ReklameScriptMedium";
+}
+
+h1 a, h2 a {
+	font-weight: normal;
+	font-style: normal;
+}
+
+p {
+	margin: 1em 0;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #bf1e2d;
+}
+
+header {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	height: 90px;
+}
+
+header h1 {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	left: 50px;
+	top: 10px;
+	width: 289px;
+	height: 80px;
+	text-decoration: none;
+	text-indent: -9999px;
+	background-image: url(/images/rubythreads.png);
+	cursor: pointer;
+}
+
+header h2 {
+	float: right;
+	margin: 8px 0 0;
+	padding: 0;
+	width: 600px;
+	text-align: center;
+	font: normal 32px "ReklameScriptRegular";
+	position: relative;
+	top: 40px;
+}
+
+body > nav {
+	padding: 0;
+	margin: 12px auto;
+	width: 960px;
+	background-color: black;
+	color: white;
+	font-size: 18px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+body > nav ul {
+	list-style: none;
+	margin: 0 16px;
+	overflow: auto;
+}
+
+body > nav li {
+	float: left;
+	padding: 8px;
+}
+
+body > nav li:hover {
+	background-color: #555;
+}
+
+body > nav a {
+	color: white;
+}
+
+section {
+	width: 960px;
+	margin: 12px auto;
+}
+
+section#cart {
+	background-color: #bf1e2d;
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	height: auto;
+	width: auto;
+	padding: 8px 32px;
+	margin-top: 0;
+	margin-left: 170px;
+	-ms-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	-o-border-radius: 0 0 10px 10px;
+	-webkitborder-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+	-ms-box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+	-o-box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+	box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+}
+
+section#cart a {
+	color: white;
+}
+
+section#cart em {
+	font: normal larger "ReklameScriptMedium";
+}
+
+section#banners {
+	width: 960px;
+	height: 180px;
+    -ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+section#banners img {
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+section.products {
+	overflow: auto;
+}
+
+section.products div {
+	background-color: white;
+	text-align: center;
+	width: 280px;
+	padding: 10px;
+	float: left;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	margin: 10px;
+	-ms-box-shadow: rgba(0, 0, 0, 0.2) 0 0 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 5px;
+	-o-box-shadow: rgba(0, 0, 0, 0.2) 0 0 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 5px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 0 5px;
+}
+
+section.products div:hover {
+	-ms-box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+	-o-box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+	box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+}
+
+section.products div a {
+	color: #555;
+}
+
+section.products div:hover a {
+	color: #000;
+}
+
+section.products div em {
+	font: normal larger "ReklameScriptMedium";
+	color: #bf1e2d;
+}
+
+section.products div img {
+	display: block;
+	width: 280px;
+	height: 280px;
+	margin-bottom: 10px;
+}
+
+section#product {
+	overflow: auto;
+}
+
+section#product div#product-details {
+	width: 460px;
+	float: left;
+}
+
+section#product div#product-details span#product-price {
+	font: normal larger "ReklameScriptMedium";
+	color: #bf1e2d;
+}
+
+section#product div#product-images {
+	width: 480px;
+	float: right;
+}
+
+section#product div#product-images ul {
+	list-style: none;
+}
+
+section#product div#product-images ul li {
+	float: left;
+	padding: 8px;
+}
+
+section.cart table th {
+	font-weight: bold;
+}
+section.cart table td {
+	vertical-align: top;
+	padding: 8px;
+}
+
+section.cart table img {
+	vertical-align: middle;
+}
+
+section.page, section.blog, section.article, section.search {
+	width: 600px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	clear: both;
+	text-align: center;
+	margin-top: 24px;
+	padding: 24px 0;
+	font-weight: normal;
+	font-style: normal;
+}
+
+footer a {
+	color: white;
+	font-weight: normal;
+	font-style: normal;
+}
+
+footer p {
+	font: normal 24px/36px "ReklameScriptMedium";
+	font-weight: normal;
+	font-style: normal;
+}
