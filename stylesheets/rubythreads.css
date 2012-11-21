@@ -218,13 +218,18 @@ section#product div#product-images {
 	float: right;
 }
 
+section#product div#product-images .banner {
+	height: 480px;
+}
+
 section#product div#product-images ul {
+	clear: both;
 	list-style: none;
 }
 
 section#product div#product-images ul li {
 	float: left;
-	padding: 8px;
+	/*padding: 0;*/
 }
 
 section.cart table th {

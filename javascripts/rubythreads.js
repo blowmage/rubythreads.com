@@ -7,8 +7,14 @@ $(document).ready(function(){
 
 	$('section#banners').cycle({
 		pause:   1,
-    	speed:   250,
-    	timeout: 10000
+		speed:   250,
+		timeout: 10000
+	});
+
+	$('.banner').cycle({
+		pause:   1,
+		speed:   250,
+		timeout: 10000
 	});
 
 	//$('section#product div#product-images a').imgbox({
